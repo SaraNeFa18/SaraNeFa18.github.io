@@ -4,7 +4,8 @@ body {
     background-repeat: no-repeat; /* Do not repeat the image */
     background-position: center; /* Center the image */
     background-size: cover; /* Resize the background image to cover the entire container */
-}
+    height: 100dvh
+  }
 
 .container {
   width: 100%;
