@@ -1,18 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<title>Links website</title>
-<style>
 
 body {
     background-image: url(https://www.w3schools.com/howto/img_link_tree_template1_bg.jpg); /* The image used for background*/
     background-repeat: no-repeat; /* Do not repeat the image */
     background-position: center; /* Center the image */
     background-size: cover; /* Resize the background image to cover the entire container */
-}
+    height: 100dvh
+  }
+
 
 .container {
   width: 100%;
@@ -63,11 +57,3 @@ body {
 color: #fff!important;
 background-color: rgba(156, 39, 176, 0.6) !important;
 }
-</style>
-  </head>
-
-
-  <body class="w3-white">
-    <!-- Content container -->
-    </body>  
-</html>

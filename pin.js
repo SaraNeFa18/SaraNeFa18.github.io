@@ -7,10 +7,17 @@ var MD5 = function(d){var r = M(V(Y(X(d),8*d.length)));return r.toLowerCase()};f
 let mappa = new Map();
 
 function riempiMappa(){
-    mappa.set("81dc9bdb52d04dc20036dbd8313ed055","miao miao")
-    mappa.set("4a7d1ed414474e4033ac29ccb8653d9b","bau bau")
+    mappa.set("81dc9bdb52d04dc20036dbd8313ed055","Ciao sono Filippo auguri SAra!!!")
+    mappa.set("4a7d1ed414474e4033ac29ccb8653d9b","Evviva il re che ha vinto la battaglia")
     mappa.set("fa246d0262c3925617b0c72bb20eeb1d",'<iframe width="560" height="315" src="https://www.youtube.com/embed/B5CZw7Z13y4?si=m1s9wzUff6dRIkMC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>')
-    
+    //video
+    mappa.set("962e56a8a0b0420d87272a682bfd1e53",'<div class="container"><div class="links-container"><a class="w3-button w3-hover-pink w3-large w3-round w3-purple w3-border link" href="https://www.youtube.com/watch?v=tTNNud1FOAI">Vai a YouTube</a></div></div>')
+    mappa.set("af5afd7f7c807171981d443ad4f4f648",'<div class="container"><div class="links-container"><a class="w3-button w3-hover-pink w3-large w3-round w3-purple w3-border link" href="https://www.youtube.com/watch?v=fNYFtj5FC1M">Vai a YouTube</a></div></div>')
+    mappa.set("3891b14b5d8cce2fdd8dcdb4ded28f6d",'<div class="container"><div class="links-container"><a class="w3-button w3-hover-pink w3-large w3-round w3-purple w3-border link" href="https://www.youtube.com/shorts/K__6EA1ZcvQ">Vai a YouTube</a></div></div>')
+    mappa.set("dbc4d84bfcfe2284ba11beffb853a8c4",'<div class="container"><div class="links-container"><a class="w3-button w3-hover-pink w3-large w3-round w3-purple w3-border link" href="https://www.youtube.com/shorts/afcc3O4u9WU">Vai a YouTube</a></div></div>')
+    //audio
+    mappa.set("eb62f6b9306db575c2d596b1279627a4",'<audio controls> <source src="audio1.mp3" type="audio/mpeg"> Problemino (provate a cambiare browser o contattatemi)</audio>')
+    //foto
 }
 
 riempiMappa()
@@ -78,7 +85,8 @@ submitBtn.addEventListener(
         ) {
             console.log("MIAAAAAAO")
             // qua se è corretto
-            document.getElementById("contenuto").innerHTML = mappa.get(val);
+            document.getElementById("contenuto").innerHTML = "<p>PIN corretto!!</p><br>"
+            document.getElementById("contenuto").innerHTML += mappa.get(val);
         } else {
             alert("Eheheh suca, hai sbagliato! 😝");
         }
