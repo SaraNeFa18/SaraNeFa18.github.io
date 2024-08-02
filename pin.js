@@ -17,13 +17,15 @@ function riempiMappa(){
     mappa.set("dbc4d84bfcfe2284ba11beffb853a8c4",'<div class="container"><div class="links-container"><a class="w3-button w3-hover-pink w3-large w3-round w3-purple w3-border link" href="https://www.youtube.com/shorts/afcc3O4u9WU">Vai a YouTube</a></div></div>')
     mappa.set("01b36d0eae3771391455661b45834805",'<div class="container"><div class="links-container"><a class="w3-button w3-hover-pink w3-large w3-round w3-purple w3-border link" href="https://youtube.com/shorts/Gjq0lypGlkE?si=PGhXWFJskK4DUCAL">Vai a YouTube</a></div></div>')
     mappa.set("f80bf05527157a8c2a7bb63b22f49aaa",'<div class="container"><div class="links-container"><a class="w3-button w3-hover-pink w3-large w3-round w3-purple w3-border link" href="https://www.youtube.com/shorts/GJ4cR1QgtiM">Vai a YouTube</a></div></div>')
+    mappa.set("36a773b0b5996caee2eabbb5caa78023",'<div class="container"><div class="links-container"><a class="w3-button w3-hover-pink w3-large w3-round w3-purple w3-border link" href="https://youtube.com/shorts/k6hdMuzgSlY?si=QYEEOX5-7ETGTTjG">Vai a YouTube</a></div></div>')
+    mappa.set("cf17919db51b07c8187d2f9531f1fb9e",'<div class="container"><div class="links-container"><a class="w3-button w3-hover-pink w3-large w3-round w3-purple w3-border link" href="https://www.youtube.com/watch?v=sHBJOv1ZScs">Vai a YouTube</a></div></div>')
 
     //audio
     mappa.set("eb62f6b9306db575c2d596b1279627a4",'<audio controls> <source src="audio1.mp3" type="audio/mpeg"> Problemino (provate a cambiare browser o contattatemi)</audio>')
     mappa.set("2be9bd7a3434f7038ca27d1918de58bd",'<audio controls> <source src="audio2.mp3" type="audio/mpeg"> Problemino (provate a cambiare browser o contattatemi)</audio>')
     mappa.set("ee715daa76f1b51d80343f45547be570",'<audio controls> <source src="audio3.mp3" type="audio/mpeg"> Problemino (provate a cambiare browser o contattatemi)</audio>')
     mappa.set("1e48c4420b7073bc11916c6c1de226bb",'<audio controls> <source src="audio4.mp3" type="audio/mpeg"> Problemino (provate a cambiare browser o contattatemi)</audio>')
-    mappa.set("5cce25ff8c3ce169488fe6c6f1ad3c97",'<audio controls> <source src="audio5.mp3" type="audio/mpeg"> Problemino (provate a cambiare browser o contattatemi)</audio>')
+    mappa.set("282bb8a7afdb969e5ac8e1848f741d9a",'<audio controls> <source src="audio5.mp3" type="audio/mpeg"> Problemino (provate a cambiare browser o contattatemi)</audio>')
     mappa.set("3a1dd98341fafc1dfe9bcf36360e6b84",'Non sei veramente arrivata alla fine, dai..')
     
     //foto
@@ -100,10 +102,11 @@ submitBtn.addEventListener(
         ) {
             console.log("MIAAAAAAO")
             // qua se è corretto
-            document.getElementById("contenuto").innerHTML = "<p>PIN corretto!!</p><br>"
+            document.getElementById("contenuto").innerHTML = "<p>PIN " + pinInput.value + " corretto!!</p><br>"
             document.getElementById("contenuto").innerHTML += mappa.get(val);
         } else {
             alert("Eheheh suca, hai sbagliato! 😝");
+            document.getElementById("contenuto").innerHTML = ""
         }
         // Reset the input
         pinInput.value = "";
