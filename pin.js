@@ -17,7 +17,9 @@ function riempiMappa(){
     mappa.set("dbc4d84bfcfe2284ba11beffb853a8c4",'<div class="container"><div class="links-container"><a class="w3-button w3-hover-pink w3-large w3-round w3-purple w3-border link" href="https://www.youtube.com/shorts/afcc3O4u9WU">Vai a YouTube</a></div></div>')
     //audio
     mappa.set("eb62f6b9306db575c2d596b1279627a4",'<audio controls> <source src="audio1.mp3" type="audio/mpeg"> Problemino (provate a cambiare browser o contattatemi)</audio>')
+    mappa.set("2be9bd7a3434f7038ca27d1918de58bd",'<audio controls> <source src="audio2.mp3" type="audio/mpeg"> Problemino (provate a cambiare browser o contattatemi)</audio>')
     //foto
+    mappa.set("dc960c46c38bd16e953d97cdeefdbc68",'<img src="foto2.jpg">')
 }
 
 riempiMappa()
