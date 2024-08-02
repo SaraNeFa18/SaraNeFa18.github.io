@@ -7,8 +7,7 @@ var MD5 = function(d){var r = M(V(Y(X(d),8*d.length)));return r.toLowerCase()};f
 let mappa = new Map();
 
 function riempiMappa(){
-    mappa.set("81dc9bdb52d04dc20036dbd8313ed055","Ciao sono Filippo auguri SAra!!!")
-    mappa.set("4a7d1ed414474e4033ac29ccb8653d9b","Evviva il re che ha vinto la battaglia")
+    mappa.set("4a7d1ed414474e4033ac29ccb8653d9b","Ciao Sara, sono Filippo!! Augurissimi!! Sono stato molto contento di dare una mano a Stefano per questo piccolo progetto, mi sono divertito molto facendolo e spero che sia di tuo gradimento. Ci tenevo anche a dirti che purtroppo, non essendo un superuomo, potrebbero esserci dei bug in questo sito; ovviamente spero non succeda, ma non si sa mai. Qualora incappassi in qualcosa che durante l'utilizzo non funzioni, come dei PIN che non corrispondono o qualsiasi altro tipo di problematica, non farti scrupoli a contattare subito me e Stefano. Un bacione e.. buon viaggio!!")
     mappa.set("fa246d0262c3925617b0c72bb20eeb1d",'<iframe width="560" height="315" src="https://www.youtube.com/embed/B5CZw7Z13y4?si=m1s9wzUff6dRIkMC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>')
     
     //video
@@ -25,6 +24,7 @@ function riempiMappa(){
     mappa.set("ee715daa76f1b51d80343f45547be570",'<audio controls> <source src="audio3.mp3" type="audio/mpeg"> Problemino (provate a cambiare browser o contattatemi)</audio>')
     mappa.set("1e48c4420b7073bc11916c6c1de226bb",'<audio controls> <source src="audio4.mp3" type="audio/mpeg"> Problemino (provate a cambiare browser o contattatemi)</audio>')
     mappa.set("5cce25ff8c3ce169488fe6c6f1ad3c97",'<audio controls> <source src="audio5.mp3" type="audio/mpeg"> Problemino (provate a cambiare browser o contattatemi)</audio>')
+    mappa.set("3a1dd98341fafc1dfe9bcf36360e6b84",'Non sei veramente arrivata alla fine, dai..')
     
     //foto
     mappa.set("dc960c46c38bd16e953d97cdeefdbc68",'<img src="foto2.jpg">')
