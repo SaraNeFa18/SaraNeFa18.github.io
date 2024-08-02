@@ -10,16 +10,29 @@ function riempiMappa(){
     mappa.set("81dc9bdb52d04dc20036dbd8313ed055","Ciao sono Filippo auguri SAra!!!")
     mappa.set("4a7d1ed414474e4033ac29ccb8653d9b","Evviva il re che ha vinto la battaglia")
     mappa.set("fa246d0262c3925617b0c72bb20eeb1d",'<iframe width="560" height="315" src="https://www.youtube.com/embed/B5CZw7Z13y4?si=m1s9wzUff6dRIkMC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>')
+    
     //video
     mappa.set("962e56a8a0b0420d87272a682bfd1e53",'<div class="container"><div class="links-container"><a class="w3-button w3-hover-pink w3-large w3-round w3-purple w3-border link" href="https://www.youtube.com/watch?v=tTNNud1FOAI">Vai a YouTube</a></div></div>')
     mappa.set("af5afd7f7c807171981d443ad4f4f648",'<div class="container"><div class="links-container"><a class="w3-button w3-hover-pink w3-large w3-round w3-purple w3-border link" href="https://www.youtube.com/watch?v=fNYFtj5FC1M">Vai a YouTube</a></div></div>')
     mappa.set("3891b14b5d8cce2fdd8dcdb4ded28f6d",'<div class="container"><div class="links-container"><a class="w3-button w3-hover-pink w3-large w3-round w3-purple w3-border link" href="https://www.youtube.com/shorts/K__6EA1ZcvQ">Vai a YouTube</a></div></div>')
     mappa.set("dbc4d84bfcfe2284ba11beffb853a8c4",'<div class="container"><div class="links-container"><a class="w3-button w3-hover-pink w3-large w3-round w3-purple w3-border link" href="https://www.youtube.com/shorts/afcc3O4u9WU">Vai a YouTube</a></div></div>')
+    mappa.set("01b36d0eae3771391455661b45834805",'<div class="container"><div class="links-container"><a class="w3-button w3-hover-pink w3-large w3-round w3-purple w3-border link" href="https://youtube.com/shorts/Gjq0lypGlkE?si=PGhXWFJskK4DUCAL">Vai a YouTube</a></div></div>')
+    mappa.set("f80bf05527157a8c2a7bb63b22f49aaa",'<div class="container"><div class="links-container"><a class="w3-button w3-hover-pink w3-large w3-round w3-purple w3-border link" href="https://www.youtube.com/shorts/GJ4cR1QgtiM">Vai a YouTube</a></div></div>')
+
     //audio
     mappa.set("eb62f6b9306db575c2d596b1279627a4",'<audio controls> <source src="audio1.mp3" type="audio/mpeg"> Problemino (provate a cambiare browser o contattatemi)</audio>')
     mappa.set("2be9bd7a3434f7038ca27d1918de58bd",'<audio controls> <source src="audio2.mp3" type="audio/mpeg"> Problemino (provate a cambiare browser o contattatemi)</audio>')
+    mappa.set("ee715daa76f1b51d80343f45547be570",'<audio controls> <source src="audio3.mp3" type="audio/mpeg"> Problemino (provate a cambiare browser o contattatemi)</audio>')
+    mappa.set("1e48c4420b7073bc11916c6c1de226bb",'<audio controls> <source src="audio4.mp3" type="audio/mpeg"> Problemino (provate a cambiare browser o contattatemi)</audio>')
+    mappa.set("5cce25ff8c3ce169488fe6c6f1ad3c97",'<audio controls> <source src="audio5.mp3" type="audio/mpeg"> Problemino (provate a cambiare browser o contattatemi)</audio>')
+    
     //foto
     mappa.set("dc960c46c38bd16e953d97cdeefdbc68",'<img src="foto2.jpg">')
+    mappa.set("bb03e43ffe34eeb242a2ee4a4f125e56",'<img src="foto3.jpg">')
+    mappa.set("058d6f2fbe951a5a56d96b1f1a6bca1c",'<img src="foto4.jpg">')
+    mappa.set("99ef04eb612baf0e86671a5109e22154",'<img src="foto5.jpg">')
+    mappa.set("a6ea8471c120fe8cc35a2954c9b9c595",'<img src="foto6.jpg">')
+
 }
 
 riempiMappa()
