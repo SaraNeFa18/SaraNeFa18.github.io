@@ -1,10 +1,10 @@
 
 body {
     background-image: url(https://www.w3schools.com/howto/img_link_tree_template1_bg.jpg); /* The image used for background*/
-    background-repeat: no-repeat; /* Do not repeat the image */
     background-position: center; /* Center the image */
     background-size: cover; /* Resize the background image to cover the entire container */
-    height: 100dvh
+    height: 100dvh;
+    width: 100dvw;
   }
 
 
